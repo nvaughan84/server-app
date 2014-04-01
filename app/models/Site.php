@@ -5,4 +5,6 @@
 	{
 		protected $table = 'site';
 
+		
+
 	}

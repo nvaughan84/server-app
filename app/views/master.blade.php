@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>The Blue Cube | Websites</title>
 	{{ HTML::style('css/styles.css'); }}
+	{{ HTML::script('js/jquery-1.11.0.min.js'); }}
+	{{ HTML::script('js/typeahead.js'); }}
+	{{ HTML::script('js/scripts.js'); }}
 </head>
 <body>
 	<header>

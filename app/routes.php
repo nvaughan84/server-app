@@ -13,9 +13,14 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('index');
 });
 
 Route::resource('sites', 'SiteController');
 
 Route::resource('servers', 'ServerController');
+
+Route::get('sites/all/json', function()
+{
+    return Site::all();
+});
